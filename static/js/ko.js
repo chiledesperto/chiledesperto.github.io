@@ -1,10 +1,17 @@
+firebase.database().ref().on('value',(snap)=>{
+    let victim_model = new VictimsModel(snap)
+    ko.applyBindings(victim_model)
+});
+
+
 function Item(data) {
     this.picture = ko.computed(function() {
         // return victim_pics[data.name] ? victim_pics[data.name] : victim_pics.default;
         return ""
     });
     this.culprit = ko.computed(function() {
-        return data.esp.attackers.join(", ")
+        return data.esp.attackers ? data.esp.attackers.join(", ") : null
+
     });
     this.name = ko.observable(data.name);
     this.age = ko.observable(data.age);
@@ -34,16 +41,13 @@ function YearItem(year, items) {
     this.items = ko.observable(items);
 }
 
-function VictimsModel() {
+function VictimsModel(data) {
     var self = this;
     self.aa = "djcen"
     self.mapuche_items = ko.observableArray([]);
     self.get_items = function() {
-        var years = Object.keys(victims.data).reverse()
-        var items = years.map(y => self.mapuche_items.push(new YearItem(y, victims.data[y].map(x => new Item(x)))))
+        var years = Object.keys(data.val()).reverse()
+        var items = years.map(y => self.mapuche_items.push(new YearItem(y, data.val()[y].map(x => new Item(x)))))
     }
     self.get_items()
 }
-
-let victim_model = new VictimsModel()
-ko.applyBindings(victim_model)
