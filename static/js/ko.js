@@ -1,6 +1,7 @@
 function Item(data) {
     this.picture = ko.computed(function() {
-        return victim_pics[data.name] ? victim_pics[data.name] : victim_pics.default;
+        // return victim_pics[data.name] ? victim_pics[data.name] : victim_pics.default;
+        return ""
     });
     this.culprit = ko.computed(function() {
         return data.esp.attackers.join(", ")
