@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chile Despertó</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="dark-bg">
+    <div id="filters">krfr</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-11 col-sm-10 col-md-10 col-xl-8 dark-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="header" class="mt-4 pt-3">
+                            <div class="d-flex justify-content-center">
+                                <img src="static/pics/flag.png" class="rounded" alt="">
+                            </div>
+                            <div class="d-flex pt-4 pb-3 justify-content-center">
+                                <h1 style="position: sticky" class="title text-uppercase">
+                                    chile woke up
+                                </h1>
+                            </div>
+                            <div class="pr-4 pl-4 mr-2 ml-2 ghost-txt d-flex justify-content-center">
+                                <p>
+                                    Archivo ciudadano de víctimas directas e indirectas del <br>terrorismo de Estado y la negligencia judicial en Chile
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="nav" class="mr-2 ml-2">
+                            <ul class="d-flex flex-wrap justify-content-center list-unstyled muted-txt">
+                                <li class="white-txt victim-type">
+                                    Indígenas
+                                </li>
+                                <li>
+                                    Protestas
+                                </li>
+                                <li>
+                                    Femicidios
+                                </li>
+                                <li>
+                                    Inmigrantes
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="content" class="p-4">
+                              <!-- ko foreach: mapuche_items -->
+                              <h1 data-bind="text: year"></h1>
+                            <ul class="container" data-bind="foreach: items">
+                                <li class="row item-border mb-4 mt-4">
+                                    <div class="col-5">
+                                        <div class="mt-4 mb-4">
+                                            <img class="victim-picture w-100 rounded mb-3" data-bind="attr:{src: picture}"  alt="">
+                                            <ul class="list-unstyled white-txt">
+                                                <!-- ko if: age() -->
+                                                <li>
+                                                    <small>
+                                                        <strong class="chill-txt">Edad: </strong>
+                                                        <span class="muted-txt" data-bind="text: age() + ' años'"></span>
+                                                    </small>
+                                                </li>
+                                                <!-- /ko -->
+                                                <li>
+                                                    <small>
+                                                        <strong class="chill-txt">Gobierno: </strong>
+                                                        <span class="muted-txt" data-bind="text: gob()"></span>
+                                                    </small>
+                                                </li>
+                                                <li>
+                                                    <small>
+                                                        <strong class="chill-txt">Lugar: </strong>
+                                                        <span class="muted-txt" data-bind="text: location()"></span>
+                                                    </small>
+                                                </li>
+                                                <li>
+                                                    <small>
+                                                        <strong class="chill-txt">Culpables: </strong>
+                                                        <span class="muted-txt" data-bind="text: culprit()"></span>
+                                                    </small>
+                                                </li>
+                                                <li>
+                                                    <small>
+                                                        <strong class="chill-txt">Sentencia: </strong>
+                                                        <span class="muted-txt" data-bind="text: sentence() == null ? 'Sin sentencia' : sentence()"></span>
+                                                    </small>
+                                                </li>
+                                                <!-- ko if: sentence() -->
+                                                <li>
+                                                    <small>
+                                                        <strong class="chill-txt">Estatus:</strong>
+                                                        <span class="muted-txt" data-bind="text: status() == true ? 'Cumplida' : 'Absuelto'"></span>
+                                                    </small>
+                                                </li>
+                                                <!-- /ko -->
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="text-justify">
+                                            <h5 class="white-txt" data-bind="text: name"></h5>
+                                        </div>
+                                        <small>
+                                            <!-- ko ifnot: background() == null -->
+                                            <strong class="white-txt">Precedentes</strong>
+                                            <!-- ko foreach: background() -->
+                                            <p class="info-txt mt-2" data-bind="text: $data"></p>
+                                            <!-- /ko -->
+                                            <!-- /ko -->
+                                            <strong class="white-txt">Muerte</strong>
+                                            <!-- ko foreach: death() -->
+                                            <p class="info-txt mt-2" data-bind="text: $data"></p>
+                                            <!-- /ko -->
+                                            <!-- ko ifnot: aftermath() == null -->
+                                            <strong class="white-txt">Repercusiones</strong>
+                                            <!-- ko foreach: aftermath() -->
+                                            <p class="info-txt mt-2" data-bind="text: $data"></p>
+                                            <!-- /ko -->
+                                            <!-- /ko -->
+                                        </small>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- /ko -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="static/src/ko.js"></script>
+    <script src="static/data/victim_pics.js"></script>
+    <script src="static/data/victims.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+</html>
