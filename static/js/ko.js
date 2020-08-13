@@ -5,10 +5,6 @@ firebase.database().ref().on('value',(snap)=>{
 
 
 function Item(data) {
-    this.picture = ko.computed(function() {
-        // return victim_pics[data.name] ? victim_pics[data.name] : victim_pics.default;
-        return ""
-    });
     this.culprit = ko.computed(function() {
         return data.esp.attackers ? data.esp.attackers.join(", ") : null
 
@@ -33,6 +29,7 @@ function Item(data) {
     this.sentence = ko.observable(data.esp.sentence);
     this.status = ko.observable(data.esp.status);
     this.read_more = ko.observable(data.esp.status);
+    this.picture = ko.observable(data.picture);
 }
 
 
