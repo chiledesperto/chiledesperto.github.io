@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body class="dark-bg">
-    <div id="filters">krfr</div>
+    <div id="filters" class="rounded chill-bg p-2 d-sm-block">
+        <h3 id="year"></h3>
+    </div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10 col-11 col-sm-10 col-md-10 col-xl-8 dark-container">
@@ -56,82 +58,84 @@
                     <div class="col-12">
                         <div id="content" class="p-4">
                               <!-- ko foreach: mapuche_items -->
-                              <h1 data-bind="text: year"></h1>
-                            <ul class="container" data-bind="foreach: items">
-                                <li class="row item-border mb-4 mt-4">
-                                    <div class="col-5">
-                                        <div class="mt-4 mb-4">
-                                            <img class="victim-picture w-100 rounded mb-3" data-bind="attr:{src: picture}"  alt="">
-                                            <ul class="list-unstyled white-txt">
-                                                <!-- ko if: age() -->
-                                                <li>
-                                                    <small>
-                                                        <strong class="chill-txt">Edad: </strong>
-                                                        <span class="muted-txt" data-bind="text: age() + ' años'"></span>
-                                                    </small>
-                                                </li>
-                                                <!-- /ko -->
-                                                <li>
-                                                    <small>
-                                                        <strong class="chill-txt">Gobierno: </strong>
-                                                        <span class="muted-txt" data-bind="text: gob()"></span>
-                                                    </small>
-                                                </li>
-                                                <li>
-                                                    <small>
-                                                        <strong class="chill-txt">Lugar: </strong>
-                                                        <span class="muted-txt" data-bind="text: location()"></span>
-                                                    </small>
-                                                </li>
-                                                <li>
-                                                    <small>
-                                                        <strong class="chill-txt">Culpables: </strong>
-                                                        <span class="muted-txt" data-bind="text: culprit()"></span>
-                                                    </small>
-                                                </li>
-                                                <li>
-                                                    <small>
-                                                        <strong class="chill-txt">Sentencia: </strong>
-                                                        <span class="muted-txt" data-bind="text: sentence() == null ? 'Sin sentencia' : sentence()"></span>
-                                                    </small>
-                                                </li>
-                                                <!-- ko if: sentence() -->
-                                                <li>
-                                                    <small>
-                                                        <strong class="chill-txt">Estatus:</strong>
-                                                        <span class="muted-txt" data-bind="text: status() == true ? 'Cumplida' : 'Absuelto'"></span>
-                                                    </small>
-                                                </li>
-                                                <!-- /ko -->
-                                            </ul>
+                              <section class="year_item">
+                                  <h1 class="year" data-bind="text: year"></h1>
+                                <ul class="container" data-bind="foreach: items">
+                                    <li class="row item-border mb-4 mt-4">
+                                        <div class="col-5">
+                                            <div class="mt-4 mb-4">
+                                                <img class="victim-picture w-100 rounded mb-3" data-bind="attr:{src: picture}"  alt="">
+                                                <ul class="list-unstyled white-txt">
+                                                    <!-- ko if: age() -->
+                                                    <li>
+                                                        <small>
+                                                            <strong class="chill-txt">Edad: </strong>
+                                                            <span class="muted-txt" data-bind="text: age() + ' años'"></span>
+                                                        </small>
+                                                    </li>
+                                                    <!-- /ko -->
+                                                    <li>
+                                                        <small>
+                                                            <strong class="chill-txt">Gobierno: </strong>
+                                                            <span class="muted-txt" data-bind="text: gob()"></span>
+                                                        </small>
+                                                    </li>
+                                                    <li>
+                                                        <small>
+                                                            <strong class="chill-txt">Lugar: </strong>
+                                                            <span class="muted-txt" data-bind="text: location()"></span>
+                                                        </small>
+                                                    </li>
+                                                    <li>
+                                                        <small>
+                                                            <strong class="chill-txt">Culpables: </strong>
+                                                            <span class="muted-txt" data-bind="text: culprit()"></span>
+                                                        </small>
+                                                    </li>
+                                                    <li>
+                                                        <small>
+                                                            <strong class="chill-txt">Sentencia: </strong>
+                                                            <span class="muted-txt" data-bind="text: sentence() == null ? 'Sin sentencia' : sentence()"></span>
+                                                        </small>
+                                                    </li>
+                                                    <!-- ko if: sentence() -->
+                                                    <li>
+                                                        <small>
+                                                            <strong class="chill-txt">Estatus:</strong>
+                                                            <span class="muted-txt" data-bind="text: status() == true ? 'Cumplida' : 'Absuelto'"></span>
+                                                        </small>
+                                                    </li>
+                                                    <!-- /ko -->
+                                                </ul>
+                                            </div>
+    
                                         </div>
-
-                                    </div>
-                                    <div class="col-7">
-                                        <div class="text-justify">
-                                            <h5 class="white-txt" data-bind="text: name"></h5>
+                                        <div class="col-7">
+                                            <div class="text-justify">
+                                                <h5 class="white-txt" data-bind="text: name"></h5>
+                                            </div>
+                                            <small>
+                                                <!-- ko ifnot: background() == null -->
+                                                <strong class="white-txt">Precedentes</strong>
+                                                <!-- ko foreach: background() -->
+                                                <p class="info-txt mt-2" data-bind="text: $data"></p>
+                                                <!-- /ko -->
+                                                <!-- /ko -->
+                                                <strong class="white-txt">Muerte</strong>
+                                                <!-- ko foreach: death() -->
+                                                <p class="info-txt mt-2" data-bind="text: $data"></p>
+                                                <!-- /ko -->
+                                                <!-- ko ifnot: aftermath() == null -->
+                                                <strong class="white-txt">Repercusiones</strong>
+                                                <!-- ko foreach: aftermath() -->
+                                                <p class="info-txt mt-2" data-bind="text: $data"></p>
+                                                <!-- /ko -->
+                                                <!-- /ko -->
+                                            </small>
                                         </div>
-                                        <small>
-                                            <!-- ko ifnot: background() == null -->
-                                            <strong class="white-txt">Precedentes</strong>
-                                            <!-- ko foreach: background() -->
-                                            <p class="info-txt mt-2" data-bind="text: $data"></p>
-                                            <!-- /ko -->
-                                            <!-- /ko -->
-                                            <strong class="white-txt">Muerte</strong>
-                                            <!-- ko foreach: death() -->
-                                            <p class="info-txt mt-2" data-bind="text: $data"></p>
-                                            <!-- /ko -->
-                                            <!-- ko ifnot: aftermath() == null -->
-                                            <strong class="white-txt">Repercusiones</strong>
-                                            <!-- ko foreach: aftermath() -->
-                                            <p class="info-txt mt-2" data-bind="text: $data"></p>
-                                            <!-- /ko -->
-                                            <!-- /ko -->
-                                        </small>
-                                    </div>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                              </section>
                             <!-- /ko -->
                         </div>
                     </div>
@@ -146,6 +150,7 @@
     <script src="static/src/ko.js"></script>
     <script src="static/data/victim_pics.js"></script>
     <script src="static/data/victims.js"></script>
+    <script src="static/js/ko.js"></script>
     <script src="static/js/app.js"></script>
 </body>
 </html>

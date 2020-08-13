@@ -160,7 +160,7 @@ const victims = {
         2005: [
             {
                 name: "Zenén Alfonso Díaz Necul",
-                age: 16,
+                age: 17,
                 age_cat: "minor",
                 date: "05-10-2005",
                 gob: "Ricardo Lagos",

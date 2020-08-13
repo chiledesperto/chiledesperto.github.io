@@ -35,6 +35,10 @@
     color: rgba(247, 247, 247, 0.658);
 }
 
+.chill-bg {
+    background-color: rgba(247, 247, 247, 0.658);;
+}
+
 #nav ul li {
     padding: 0.5em;
     border-bottom: 2px solid rgba(255, 255, 255, 0.486);
@@ -76,5 +80,6 @@
 #filters {
     position:fixed;
     bottom:5em;
-    left:2em
+    left:4em;
+    width: 13em;
 }
