@@ -1,12 +1,12 @@
 {
     "2002":[
       {
-        "name":"Agustina Huenupe Pavián",
+        "name":"Agustina Huenupe",
+        "full_name":"Agustina Huenupe Pavián",
         "age":null,
         "age_cat":"adult",
         "date":"07-13-2002",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","pewenche","mujer","activista"],
           "location":"Bío-Bío",
           "background":"Dirigente Mapuche-Pehuenche",
@@ -16,19 +16,14 @@
           "sentence":"10 años y 1 día y 7 años y 1 día por homicidio simple",
           "status":true,
           "read_more":"https://www.convergenciamedios.cl/2018/07/defensora-de-la-tierra-agustina-huenupe-pavian/"
-        },
-        "eng":{
-          "labels":["indigenous","woman","activist"],
-          "background":"Activist leader of Mapuche-Pehuenche ethnicity, preserver of earth and its rights, fighter against the capitalist, racist and patriarchal system."
-        }
       },
       {
-        "name":"Mauricio Huenupe Pavián",
+        "name":"Mauricio Huenupe",
+        "full_name":"Mauricio Huenupe Pavián",
         "age":null,
         "age_cat":"adult",
         "date":"07-13-2002",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","pewenche","activista"],
           "location":"Bío-Bío",
           "background":"Dirigente Mapuche-Pehuenche",
@@ -38,16 +33,14 @@
           "sentence":"10 años y 1 día y 7 años y 1 día por homicidio simple",
           "status":true,
           "read_more":"https://www.convergenciamedios.cl/2018/07/defensora-de-la-tierra-agustina-huenupe-pavian/"
-        },
-        "eng":{"labels":["indigenous","activist"]}
       },
       {
-        "name":"Jorge Antonio Suarez Marihuan",
+        "name":"Jorge Suarez Marihuan",
+        "full_name":"Jorge Antonio Suarez Marihuan",
         "age":27,
         "age_cat":"young adult",
         "date":"12-11-2002",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","activista"],
           "location":"Bío-Bío",
           "background":"Hermano del longko de la comunidad de Malla Malla e integrante activo del proceso de recuperación de tierras.",
@@ -57,16 +50,14 @@
           "sentence":null,
           "status":null,
           "read_more":"https://www.mapuche-nation.org/espanol/html/documentos/doc-104.htm"
-        },
-        "eng":{"labels":["indigenous"]}
       },
       {
-        "name":"Edmundo Alex Lemun Saavedra",
+        "name":"Edmundo Lemun",
+        "full_name":"Edmundo Alex Lemun Saavedra",
         "age":17,
         "age_cat":"minor",
         "date":"11-12-2002",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","activista"],
           "location":"Ercilla",
           "background":"Realizó la ocupación de un fundo administrado por la Forestal Mininco S.A., junto a un grupo de 40 mapuche integrado por hombres, mujeres, menores y ancianxs, para recoger leña. Los carabineros enviados a desocupar la zona dispararon bombas lacrimógenas y, mientras las mujeres, menores y ancianxs huían, otros 20 jóvenes hicieron frente a la policía para contener la violencia.",
@@ -76,18 +67,16 @@
           "sentence":"El mayor comisario Marco Aurelio Treuer, quien realizó el disparo, fue disciplinado con 1 día de sanción por la institución. Sin condena. Actualmente se encuentra en prisión preventiva.",
           "status":false,
           "read_more":"https://www.cejil.org/es/edmundo-alex-lemun-saavedra-y-otros-vs-chile"
-        },
-        "eng":{"labels":["indigenous"]}
       }
     ],
     "2004":[
       {
-        "name":"Julio Alberto Huentecura Llancaleo",
+        "name":"Julio Huentecura",
+        "full_name":"Julio Alberto Huentecura Llancaleo",
         "age":30,
         "age_cat":"adult",
         "date":"09-26-2004",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","activista"],
           "location":"Santiago",
           "background":"Fue detenido en 2001, cuando participaba en una recuperación de tierras.",
@@ -97,18 +86,16 @@
           "sentence":null,
           "status":null,
           "read_more":null
-        },
-        "eng":{"labels":["indigenous"]}
       }
     ],
     "2005":[
       {
-        "name":"Zenén Alfonso Díaz Necul",
+        "name":"Zenén Díaz Necul",
+        "full_name":"Zenén Alfonso Díaz Necul",
         "age":17,
         "age_cat":"minor",
         "date":"05-10-2005",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","activista"],
           "location":"Puerto Montt",
           "background":"Participaba en un corte de ruta en el acceso sur del Viaducto del Malleco, protestando la destrucción de un rewe y otros elementos culturales a manos de guardias forestales de la empresa Mininco (grupo Matte).",
@@ -118,16 +105,14 @@
           "sentence":null,
           "status":null,
           "read_more":"https://www.mapuche-nation.org/espanol/html/noticias/ntcs-210.htm"
-        },
-        "eng":{"labels":["indigenous"]}
       },
       {
-        "name":"José Gerardo Huenante Huenante",
+        "name":"José Huenante",
+        "full_name":"José Gerardo Huenante Huenante",
         "age":16,
         "age_cat":"minor",
         "date":"09-03-2005",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","detenido desaparecido"],
           "location":"Puerto Montt",
           "background":null,
@@ -141,18 +126,16 @@
             "link":"https://www.youtube.com/watch?v=j11tkVHcCIc",
             "caption":"Reportaje de Infotme Especial de TVN"
           }
-        },
-        "eng":{"labels":["indigenous","detained desappeared"]}
       }
     ],
     "2006":[
       {
-        "name":"Longko Juan Lorenzo Collihuin Catril",
+        "name":"Juan Collihuin",
+        "full_name":"Longko Juan Lorenzo Collihuin Catril",
         "age":71,
         "age_cat":"elderly",
         "date":"08-29-2006",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","activista","torturado"],
           "location":"Cautín",
           "background":"Tras su muerte, sus familiares denunciaron años de persecución política desde la dictadura. \nDesde 1978 a 1980 convocó a las comunidades del sector para oponerse al decreto de ley 2568 con el que pinochet pretendía dividir la tierra indígena para el cobro de contribución Territorial y eliminar a los mapuche tanto individual y colectivamente su identidad como pueblo.",
@@ -162,18 +145,16 @@
           "sentence":null,
           "status":null,
           "read_more":"https://www.barilochense.com/bariloche-social/pueblomapuche/la-verdad-tras-el-asesinato-del-anciano-juan-collihuin-catril-en-manos-de-carabineros"
-        },
-        "eng":{"labels":["indigenous"]}
       }
     ],
     "2008":[
       {
-        "name":"Matías Valentín Catrileo Quezada",
+        "name":"Matías Catrileo",
+        "full_name":"Matías Valentín Catrileo Quezada",
         "age":22,
         "age_cat":"young adult",
         "date":"01-03-2008",
         "gob":"Ricardo Lagos",
-        "esp":{
           "labels":["mapuche","activista","weichafe"],
           "location":"Cautín",
           "background":"Catrileo dejó el liceo cuando tenía 18 años y se dedicó a estudiar mapudungun, filosofía e historia. Hizo servicio militar en Arica, donde finalizó sus estudios secundarios, y cursaba tercer año de Agronomía cuando se produjo su asesinato. \nEl predio Santa Margarita donde lo mataron, que rodeaba la comunidad Llupeco Vilcún, en la comuna de Vilcún de la Araucanía, estaba custodiado desde 2001 por carabineros dentro de acciones amparadas por la Ley Antiterrorista.",
@@ -183,18 +164,16 @@
           "sentence":"3 años y un día de presidio bajo el régimen de libertad vigilada (firma mensual), por el delito de violencia innecesaria con resultado de muerte",
           "status":true,
           "read_more":"https://www.eldinamo.cl/nacional/2020/01/03/matias-catrileo-quien-era-y-quienes-fueron-condenados-por-su-muerte/"
-        },
-        "eng":{"labels":["indigenous"]}
       }
     ],
     "2009":[
       {
-        "name":"Jhonny Cariqueo Yañez",
+        "name":"Jhonny Cariqueo",
+        "full_name":"Jhonny Cariqueo Yañez",
         "age":23,
         "age_cat":"young adult",
         "date":"03-31-2009",
         "gob":"Michelle Bachelet",
-        "esp":{
           "labels":["mapuche","activista","torturado"],
           "location":"Santiago",
           "background":"Era anarquista y rapero, miembro del colectivo Puño En Alto. \nFue detenido en el marco de manifestaciones durante el día del Joven Combatiente, mientras caminaba por la Plaza Víctor Jara. Ya se había retirado del lugar y fue interceptado por un furgón del GOPE junto sus compañeros del colectivo.",
@@ -204,16 +183,14 @@
           "sentence":null,
           "status":null,
           "read_more":"https://www.elciudadano.com/organizacion-social/ante-la-muerte-de-jhonny-cariqueo-yanez/04/03/"
-        },
-        "eng":{"labels":["indigenous"]}
       },
       {
-        "name":"José Marcelo Toro Ñanco",
+        "name":"José Toro Ñanco",
+        "full_name":"José Marcelo Toro Ñanco",
         "age":35,
         "age_cat":"adult",
         "date":"03-28-2009",
         "gob":"piñera",
-        "esp":{
           "labels":["mapuche","activista"],
           "location":"Ercilla",
           "background":"Era padre de 3 hijos y formaba parte de los procesos vinculados a la recuperación de territorio ancestral que había emprendido la Comunidad Wente Winkul Mapu de Chekenko, por los cuales el 60% de sus integrantes se mantenían procesados por la justicia chilena.",
@@ -223,16 +200,14 @@
           "sentence":null,
           "status":null,
           "read_more":null
-        },
-        "eng":{"labels":["indigenous"]}
       },
       {
-        "name":"Jaime Facundo Mendoza Collío",
+        "name":"Jaime Mendoza Collío",
+        "full_name":"Jaime Facundo Mendoza Collío",
         "age":24,
         "age_cat":"young adult",
         "date":"08-12-2009",
         "gob":"Michelle Bachelet",
-        "esp":{
           "labels":["mapuche","activista","weichafe"],
           "location":"Ercilla",
           "background":"Familiar de Víctor Mendoza Collío, quien fue asesinado en la puerta de su casa.",
@@ -246,17 +221,16 @@
             "link":"https://www.youtube.com/watch?v=6nhbZ3Q9s3Y",
             "caption":"Imágenes del funeral acompañadas por un poema de Elicura Chihuailaf, escritor, poeta y oralitor mapuche."
           }
-        }
       }
     ],
     "2013":[
       {
-        "name":"Rodrigo Eliecer Melinao Licán",
+        "name":"Rodrigo Melinao",
+        "full_name":"Rodrigo Eliecer Melinao Licán",
         "age":27,
         "age_cat":"young adult",
         "date":"08-05-2013",
         "gob":"piñera",
-        "esp":{
           "labels":["mapuche","activista"],
           "location":"Ercilla",
           "background":"Melinao tenía 27 años, 4 hijos, era un reconocido dirigente mapuche perteneciente a la comunidad  Rayen Mapu. El Tribunal de Juicio Oral de Angol lo había sentenciado a 5 años de prisión por el delito de incendio de bosques ocurrido en 2011. Su defensa presentó un recurso de nulidad, por lo que su sentencia no se encontraba en curso.",
@@ -270,15 +244,14 @@
             "link":"https://www.youtube.com/watch?v=XBweyxeGVZ4",
             "caption":"Documental en homenaje a Rodrigo Melinao"
           }
-        }
       },
       {
-        "name":"Nicolasa Quintremán Calpán",
+        "name":"Nicolasa Quintremán",
+        "full_name":"Nicolasa Quintremán Calpán",
         "age":74,
         "age_cat":"elderly",
         "date":"12-24-2013",
         "gob":"piñera",
-        "esp":{
           "labels":["pewenche","mapuche","mujer","activista"],
           "location":"Bío-Bío",
           "background":"Perteneció a la comunidad Ralco-Lepoy,​ donde fue una de las artífices de diversas manifestaciones en Santiago y Concepción en contra de la central hidroeléctrica Ralco, proyecto legado de pinochet, y participó en varios foros internacionales donde explicó las implicancias de dicho proyecto para el pueblo pewenche. \nSu lucha fue emblemática y se convirtió en una inspiración para los pueblos indígenas, reconociendo su trabajo social por la comunidad internacional.",
@@ -288,17 +261,16 @@
           "sentence":null,
           "status":null,
           "read_more":"https://www.eldesconcierto.cl/2013/12/26/nicolasa-quinterman-el-profundo-legado-de-la-luchadora-nana-pehuenche/"
-        }
       }
     ],
     "2014":[
       {
-        "name":"Victor Manuel Mendoza Collío",
+        "name":"Victor Mendoza Collío",
+        "full_name":"Victor Manuel Mendoza Collío",
         "age":27,
         "age_cat":"young adult",
         "year":2014,
         "gob":"Michelle Bachelet",
-        "esp":{
           "labels":["mapuche","activista"],
           "location":"Ercilla",
           "background":"Tenía condición de werken, es decir, vocero de su comunidad mapuche ubicada al interior de la localidad de Pidima, en la comuna de Ercilla, la cual se encontraba en medio movilización por la recuperación de tierras ancestrales ocupadas por empresas forestales. Sin embargo, su asesinato fue llevado a cabo fuerta de este marco, no debido a una riña ni enfrentamientos.",
@@ -308,16 +280,15 @@
           "sentence":null,
           "status":null,
           "read_more":"https://www.latercera.com/la-tercera-pm/noticia/la-extrana-muerte-del-lonko-mendoza-y-el-sino-tragico-que-persigue-a-su-familia/467751/"
-        }
       },
       {
-        "name":"José Mauricio Quintriqueo Huaiquimil",
+        "name":"José Quintriqueo",
+        "full_name":"José Mauricio Quintriqueo Huaiquimil",
         "age":32,
         "age_cat":"adult",
         "year":2014,
         "date":"1-10-2014",
         "gob":"Michelle Bachelet",
-        "esp":{
           "labels":["mapuche"],
           "location":"Galvarino",
           "background":null,
@@ -327,18 +298,17 @@
           "sentence":"5 años y 1 día",
           "status":null,
           "read_more":"https://www.amcam.cl/juiciojosequintriqueo"
-        }
       }
     ],
     "2015":[
       {
         "name":"Nelson Quichillao",
+        "full_name":"Nelson Quichillao",
         "age":null,
         "age_cat":"adult",
         "date":"07-24-2015",
         "gob":"Michelle Bachelet",
-        "esp":{
-          "labels":["mapuche","obrero"],
+          "labels":["mapuche","activista"],
           "location":"Diego de Almagro",
           "background":"El 24 de julio de 2015 la Confederación de Trabajadores del Cobre llamó a una movilización general de todos sus afilados que paralizó una gran cantidad de faenas a nivel nacional. Entre ellas la División CODELCO Salvador donde Nelson, quien era un trabajador subcontratado, formó parte de la manifestación nocturna",
           "attackers":["carabineros"],
@@ -347,17 +317,16 @@
           "sentence":null,
           "status":null,
           "read_more":"https://sindicatocdf.cl/hoy-se-conmemoran-5-anos-del-asesinato-de-nelson-quichillao-a-manos-de-carabineros/"
-        }
       }
     ],
     "2016":[
       {
         "name":"Macarena Valdés",
+        "full_name":"Macarena Valdés Muñoz",
         "age":31,
         "age_cat":"adult",
         "date":"08-22-2016",
         "gob":"Michelle Bachelet",
-        "esp":{
           "labels":["mapuche","mujer","activista"],
           "location":"Tranguil",
           "background":"Pertenecía a la comunidad Newen junto a su pareja, Rubén Collío, elegido werken. Ambos encabezaron una serie de manifestaciones contra la central hidroeléctrica de la empresas RP Global y SAESA, cuya construcción significó la tala de bosque nativo y la inundación de dos cementerios mapuche.",
@@ -368,17 +337,105 @@
           "status":null,
           "read_more":"http://revistadefrente.cl/a-4-anos-del-asesinato-de-macarena-valdes-munoz-continua-la-demanda-de-verdad-y-justicia-en-su-caso/",
           "hashtag":"ALaNegraLaMataron"
-        }
       }
+    ],
+    "2017": [
+      {
+        "name": "Patricio Gonzáles Guajardo",
+        "full_name": "Patricio Gabriel González Guajardo",
+        "age": null,
+        "age_cat": "young adult",
+        "year": 2017,
+        "date": "06-10-2017",
+        "gob": "Michelle Bachelet",
+            "labels": [
+                "mapuche",
+                "weichafe"
+            ],
+            "location": "Los Sauces",
+            "background": "El día 10 de Junio se acercó al fundo El Encino, junto a Luis Marileo y otros tres compañeros, para exigir la entrega de caballos robados por parte del latifundista y ex-capitán de carabineros Ignacio Gallegos Pereira.",
+            "attackers": [
+                "latifundista",
+                "chileno",
+                "excarabinero"
+            ],
+            "death": "Fue herido a muerte por los tiros que Pereira, quien está vinculado al Caso Degollados de la dictadura, perpetró contra el grupo de jóvenes mapuche.",
+            "aftermath": "Organizaciones internacionales de defensa del meioambiente y derechos humanos de Europa, Latinoamérica y Estados Unidos repudiaron el crimen.",
+            "sentence": null,
+            "status": null,
+            "read_more": "https://www.mapuexpress.org/2017/06/16/asesinato-de-luis-marileo-y-patricio-gonzalez-el-abuso-la-mentira-y-el-descaro/",
+            "hashtag": "JusticiaParaIrisYRosa"
+    },
+    {
+      "name": "Luis Marileo Cariqueo",
+      "full_name": "Luis Humberto Marileo Cariqueo",
+      "age": null,
+      "age_cat": "young adult",
+      "date": "06-10-2017",
+      "gob": "piñera",
+          "labels": [
+              "mapuche",
+              "activista",
+              "weichafe"
+          ],
+          "location": "Ángol",
+          "background": "Fue judicializado como terrorista en calidad de menor de edad, el primer menor formalizado bajo la Ley Antiterrorista heredada de la dictadura, y estuvo encarcelado durante 7 meses sin un juicio justo. Luis logró la cooperación del Sename en su caso a través de una huelga de hambre de 41 días, junto a otros jóvenes mapuche, y eventualmente quedó en libertad sin cargos tras 3 años de presidio.",
+          "attackers": [
+              "latifundista",
+              "chileno",
+              "excarabinero"
+          ],
+          "death": "Luis recibió dos disparos por la espalda a corta distancia, perpetrados por Ignacio Gallegos Pereira, un ex-capitán de carabineros latifundista y vinculado al Caso Degollados, tras ser encarado por Luis y otros jóvenes por el robo de caballos por parte de Gallegos.",
+          "aftermath": "Carabineros entregó antecedentes falsos del crimen, tachando a Gallegos como víctima de un robo y potencial quema de su vivienda. Eventualmente, el ex uniformado fue imputado por doble homicidio y su juicio aún está en proceso.",
+          "sentence": null,
+          "status": null,
+          "read_more": "https://www.eldesconcierto.cl/2017/06/20/organizaciones-europeas-repudian-asesinato-de-jovenes-mapuche-luis-marileo-y-patricio-gonzalez/",
+          "hashtag": "JusticiaParaIrisYRosa"
+  }
+    ],
+    "2018": [
+      {
+        "name": "Camilo Catrillanca",
+        "full_name": "Camilo Marcelo Catrillanca Marín",
+        "age": 24,
+        "age_cat": "young adult",
+        "year": 2018,
+        "date":"11-14-2018",
+        "gob": "piñera",
+            "labels": [
+                "mapuche",
+                "weichafe"
+            ],
+            "location": "Ercilla",
+            "background": "Nieto del histórico longko de la comunidad Ignacio Queipul Millanao del Lof Temucuicui, Juan Catrillanca. \nA sus 16 años ya era reconocido como dirigente estudiantil, logrando un acuerdo para la creación de un liceo intercultural. \nFue detenido en multiples ocasiones a lo largo de su vida en el contexto de protestas en las que exigía los derechos y la libertad de los presos políticos mapuche, y la desmilitarización de la zona. \nSu nombre apareció en los informes secretos de la UIOE, unidad que llevaba acabo la Operación Huracán, como objetivo debido a su historial como activista. \nAl momento de su asesinato, Camilo estaba construyendo una casa para él, su hija de 4 años y su pareja, quien estaba embarazada.",
+            "attackers": [
+                "carabineros",
+                "comando jungla"
+            ],
+            "death": "Catrillanca viajaba junto a un menor de 15 años en un tractor cuando recibió un disparo en la parte posterior inferior de la cabeza, propinado por el Comando Jungla. Fue trasladado al Cesfam de la zona, pero falleció ese mismo día.",
+            "aftermath": "El adolescente que viajaba junto a Camilo (y testigo de su asesinato) fue detenido bajo los cargos de robo y golpeado por carabineros. La detención con la que se había justificado la operación fue más tarde declarada ilegal. \nTodos los involucrados en el asesinato mintieron. Así como el alcalde de La Araucanía y otros políticos quienes acusaron a Camilo de tener antecedentes y aseguraron haber visto evidencia de un enfrentamiento contra los uniformados. Hubo encubrimiento y complicidad política para limitar las investigaciones. Se destruyó y se escondieron los registros de las cámaras GoPro de la unidad policial. \nAmnistía Internacional y Naciones Unidas condenaron el crimen y exhigieron al estado a realizar una investigación exhaustiva y transparente, y su asesinato provocó una serie de protestas en búsqueda de justicia y la verdad. \nPor sobretodo, Camilo Catrillanca es la primera víctima comprobada de montajes, persecución y asesinato político y en cuyo asesinato se ha evidenciado un abuso sistemático dentro de la instutición y los gobernantes, ya familiar para la comunidad mapuche.",
+            "sentence": "Juicio en curso",
+            "status": null,
+            "read_more": [
+                "https://www.latercera.com/nacional/noticia/quien-era-camilo-catrillanca/405748/",
+                "https://ciperchile.cl/2018/11/27/informe-policial-secreto-camilo-catrillanca-estaba-en-la-mira-de-carabineros/",
+                "https://www.bbc.com/mundo/noticias-america-latina-46233851",
+                "https://www.elmostrador.cl/noticias/pais/2019/08/19/ex-gope-acusado-por-la-muerte-de-camilo-catrillanca-en-ningun-momento-quise-asesinarlos/"
+            ],
+            "video": {
+                "link": "https://www.youtube.com/watch?v=GjNWegYkQPk",
+                "caption": "Registros de las cámaras de los uniformados autores del crimen"
+            }
+    }
     ],
     "2020":[
       {
         "name":"Alejandro Treuquil",
+        "full_name":"Alejandro Treuquil",
         "age":37,
         "age_cat":"adult",
         "date":"06-04-2020",
         "gob":"piñera",
-        "esp":{
           "labels":["mapuche","werken","activista"],
           "location":"Collipulli",
           "background":"Alejandro participaba de las disputas por tierras ancestrales con la Forestal Arauco. El día previo a su muerte, dio una entrevista a la radio Universidad de Chile donde denunciaba hostigamiento y asedio, incluyendo amenazas de muerte, por parte de carabineros. La semana anterior, el impacto de un perdigón propinado por carabineros lo había dejado inconsciente, y dos días más tarde su pareja sufrió un aborto espontáneo debido a bombas lacrimógenas que los mismos uniformados lanzaron dentro de su casa, con sus tres hijes presentes. También señaló desconocer los motivos del acoso.",
@@ -388,7 +445,6 @@
           "sentence":null,
           "status":null,
           "read_more":"https://www.chvnoticias.cl/historias/mapuche-lives-matter-alejandro-treuqil_20200617/"
-        }
       }
     ]
   }

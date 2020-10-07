@@ -578,15 +578,25 @@ var a =    [
                     "mapuche",
                     "weichafe"
                 ],
-                background: "Nieto del longko de la comunidad Ignacio Queipul Millanao del Lof Temucuicui, Juan Catrillanca.",
+                background: "Nieto del histórico longko de la comunidad Ignacio Queipul Millanao del Lof Temucuicui, Juan Catrillanca. \nA sus 16 años ya era reconocido como dirigente estudiantil, logrando un acuerdo para la creación de un liceo intercultural. \nFue detenido en multiples ocasiones a lo largo de su vida en el contexto de protestas en las que exigía los derechos y la libertad de los presos políticos mapuche, y la desmilitarización de la zona. \nSu nombre apareció en los informes secretos de la UIOE, unidad que llevaba acabo la Operación Huracán, como objetivo debido a su historial como activista. \nAl momento de su asesinato, Camilo estaba construyendo una casa para él, su hija de 4 años y su pareja, quien estaba embarazada.",
                 attackers: [
-                    null
+                    "carabineros",
+                    "comando jungla"
                 ],
-                death: null,
-                aftermath: null,
-                sentence: null,
+                death: "Catrillanca viajaba junto a un menor de 15 años en un tractor cuando recibió un disparo en la parte posterior inferior de la cabeza, propinado por el Comando Jungla. Fue trasladado al Cesfam de la zona, pero falleció ese mismo día.",
+                aftermath: "El adolescente que viajaba junto a Camilo (y testigo de su asesinato) fue detenido bajo los cargos de robo y golpeado por carabineros. La detención con la que se había justificado la operación fue más tarde declarada ilegal. \nTodos los involucrados en el asesinato mintieron. Así como el alcalde de La Araucanía y otros políticos quienes acusaron a Camilo de tener antecedentes y aseguraron haber visto evidencia de un enfrentamiento contra los uniformados. Hubo encubrimiento y complicidad política para limitar las investigaciones. Se destruyó y se escondieron los registros de las cámaras GoPro de la unidad policial. \nAmnistía Internacional y Naciones Unidas condenaron el crimen y exhigieron al estado a realizar una investigación exhaustiva y transparente, y su asesinato provocó una serie de protestas en búsqueda de justicia y la verdad. \nPor sobretodo, Camilo Catrillanca es la primera víctima comprobada de montajes, persecución y asesinato político y en cuyo asesinato se ha evidenciado un abuso sistemático dentro de la instutición y los gobernantes, ya familiar para la comunidad mapuche.",
+                sentence: "Juicio en curso",
                 status: null,
-                read_more: null,
+                read_more: [
+                    "https://www.latercera.com/nacional/noticia/quien-era-camilo-catrillanca/405748/",
+                    "https://ciperchile.cl/2018/11/27/informe-policial-secreto-camilo-catrillanca-estaba-en-la-mira-de-carabineros/",
+                    "https://www.bbc.com/mundo/noticias-america-latina-46233851",
+                    "https://www.elmostrador.cl/noticias/pais/2019/08/19/ex-gope-acusado-por-la-muerte-de-camilo-catrillanca-en-ningun-momento-quise-asesinarlos/"
+                ],
+                video: {
+                    link: "https://www.youtube.com/watch?v=GjNWegYkQPk",
+                    caption: "Registros de las cámaras de los uniformados autores del crimen"
+                }
             },
         },
         {
@@ -597,11 +607,12 @@ var a =    [
             gob: "piñera",
             esp: {
                 labels: [
-                    "mapuche"
+                    "mapuche",
+                    "mujer"
                 ],
                 background: null,
                 attackers: [
-                    null
+                    "desconocidos"
                 ],
                 death: null,
                 aftermath: null,
@@ -619,11 +630,12 @@ var a =    [
             gob: "piñera",
             esp: {
                 labels: [
-                    "mapuche"
+                    "mapuche",
+                    "mujer"
                 ],
                 background: null,
                 attackers: [
-                    null,
+                    "desconocidos",
                 ],
                 death: null,
                 aftermath: null,
@@ -635,44 +647,51 @@ var a =    [
         },
         {
             name: "Patricio Gonzáles Guajardo",
-            age: 17,
-            year: 2020,
-            gob: "piñera",
+            age: null,
+            year: "06-10-2017",
+            gob: "Michelle Bachelet",
             esp: {
                 labels: [
                     "mapuche",
-                    "weichafe"
+                    "weichafe",
                 ],
-                background: "Pertenecía a la comunidad Locomahuida",
+                background: "El día 10 de Junio se acercó al fundo El Encino, junto a Luis Marileo y otros tres compañeros, para exigir la entrega de caballos robados por parte del latifundista y ex-capitán de carabineros Ignacio Gallegos Pereira.",
                 attackers: [
-                    "latifundistas",
+                    "latifundista",
+                    "chileno",
+                    "excarabinero"
                 ],
-                death: null,
-                aftermath: null,
+                death: "Fue herido a muerte por los tiros que Pereira, quien está vinculado al Caso Degollados de la dictadura, perpetró contra el grupo de jóvenes mapuche.",
+                aftermath: "Organizaciones internacionales de defensa del meioambiente y derechos humanos de Europa, Latinoamérica y Estados Unidos repudiaron el crimen.",
                 sentence: null,
                 status: null,
-                read_more: null,
+                read_more: "https://www.mapuexpress.org/2017/06/16/asesinato-de-luis-marileo-y-patricio-gonzalez-el-abuso-la-mentira-y-el-descaro/",
                 hashtag: "JusticiaParaIrisYRosa"
             },
         },
         {
             name: "Luis Marileo Cariqueo",
-            age: 17,
-            year: 2020,
+            age: null,
+            year: "06-10-2017",
             gob: "piñera",
             esp: {
                 labels: [
-                    "mapuche"
+                    "mapuche",
+                    "activista",
+                    "weichafe"
                 ],
-                background: null,
+                location: "Ángol",
+                background: "Fue judicializado como terrorista en calidad de menor de edad, el primer menor formalizado bajo la Ley Antiterrorista heredada de la dictadura, y estuvo encarcelado durante 7 meses sin un juicio justo. Luis logró la cooperación del Sename en su caso a través de una huelga de hambre de 41 días, junto a otros jóvenes mapuche, y eventualmente quedó en libertad sin cargos tras 3 años de presidio.",
                 attackers: [
-                    null,
+                    "latifundista",
+                    "chileno",
+                    "excarabinero"
                 ],
-                death: null,
-                aftermath: null,
+                death: "Luis recibió dos disparos por la espalda a corta distancia, perpetrados por Ignacio Gallegos Pereira, un ex-capitán de carabineros latifundista y vinculado al Caso Degollados, tras ser encarado por Luis y otros jóvenes por el robo de caballos por parte de Gallegos.",
+                aftermath: "Carabineros entregó antecedentes falsos del crimen, tachando a Gallegos como víctima de un robo y potencial quema de su vivienda. Eventualmente, el ex uniformado fue imputado por doble homicidio y su juicio aún está en proceso.",
                 sentence: null,
                 status: null,
-                read_more: null,
+                read_more: "https://www.eldesconcierto.cl/2017/06/20/organizaciones-europeas-repudian-asesinato-de-jovenes-mapuche-luis-marileo-y-patricio-gonzalez/",
                 hashtag: "JusticiaParaIrisYRosa"
             },
         },
